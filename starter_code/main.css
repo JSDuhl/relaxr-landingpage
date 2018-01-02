@@ -2,17 +2,19 @@
  font-family: 'Open Sans', sans-serif;
  text-align: center;
  align-content: center;
+
 }
 
 header {
-  background-image: url("../images/header_bg.jpg");
+
+  background-image: url("images/header_bg.jpg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
   padding-top: 22px;
   padding-left: 55px;
   padding-right: 55px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
 }
 
 h1 {
@@ -23,30 +25,31 @@ h1 {
   padding-left: 200px;
 }
 
+
 h2 {
   color: white;
   font-weight: semi-bold;
   text-align: center;
   padding-top: 150px;
-  font-size: 24px;
 }
 
 .button {
   font-weight:extra-bold;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 18px;
   background-color: #f9e42e;
   color: #033048;
-  padding-top: 10px;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 10px;
-  border-color: #f9e42e;
+padding-top: 10px;
+padding-left: 70px;
+padding-right: 70px;
+padding-bottom: 10px;
+border-color: #f9e42e;
+border-width: 5px;
 }
 
 main {
+  font-weight: semibold;
   font-size: 20px;
-  font-weight: semi-bold;
 }
 
 #benefits {
@@ -58,10 +61,7 @@ main {
   text-align: left;
   padding-left: 75px;
   font-size: 13px;
-  font-weight: light;
 }
-
-
 
 blockquote > author {
   font-size: 18px;
@@ -69,10 +69,10 @@ blockquote > author {
 }
 
 #testimonial {
-  background-image: url("../images/testimonial_bg.jpg");
+  background-image: url("images/testimonial_bg.jpg");
   background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
   font-size: 18px;
   padding-left: 500px;
   padding-right: 500px;
@@ -80,21 +80,17 @@ blockquote > author {
   padding-bottom: 50px;
 }
 
+.button2 {
+  font-size: 12px;
+  background-color: #033048;
+  color: white;
+}
 
 blockquote {
   color: white;
   font-size: 18px;
   text-align: center;
-  font-style: italic;
-}
-
-
-.button2 {
-  font-size: 12px;
-  background-color: #033048;
-  color: white;
-  text-align: center;
-  align-content: center;
+  font-style: light italic;
 }
 
 #signup {
@@ -109,6 +105,13 @@ footer > h1 {
   color: #f9e42e;
   padding-left: 20px;
   text-align: center;
+}
+
+
+.socialimage {
+   padding-right: 10px;
+   padding-left: 10px;
+   float: right;
 }
 
 
